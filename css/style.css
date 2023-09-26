@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* GERAL */
+
+html {
+    font-family: 'Fjalla One', sans-serif;
+    height: 3870px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* BOTÃO WHATSAPP */
+
+#wpp-btn {
+    position: fixed;
+    right: 19px;
+    bottom: 45px;
+}
+
+/*  NAVBAR */
+
+#navbar {
+    max-height: 82px;
+    background-color: #fff;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo-img {
+    margin: 10px 0 10px 250px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 250px;
+}
+
+.nav-links a {
+    color: #fc7a00;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #fc7a00be;
+}
+
+/* BANNER */
+
+.main-banner,
+#banner-img {
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+/* CONTACT 01 */
+
+.contact1 {
+    margin-top: 0;
+    background-color: #fc7a00;
+    text-align: center;
+    height: 318px;
+}
+
+.contact-info {
+    padding: 50px;
+}
+
+.contact-info-names {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 20px 30px 20px;
+    line-height: 40px;
+    letter-spacing: .7px;
+}
+
+.contact-info-phones {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: .7px;
+}
+
+/* PRODUTOS */
+
+#products {
+    background-image: url(../img/bg-home.png);
+}
+
+#products h2 {
+    font-size: 33px;
+    text-align: center;
+    padding: 50px;
+    color: rgb(68, 68, 68);
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+#ar-condicionado img, 
+#cortina-de-ar img, 
+#caixa-ventiladora img,
+#coifa-de-cozinha img,
+#damper-corta-fogo img, 
+#dutos-ar-condicionado img,
+#exaustor img,
+#lavador-de-gases img,
+#ventilador-siroco img {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.line-separator {
+    border: 1px solid #fc7a00;
+    width: 40px;
+    margin: 25px auto;
+}
+
+#ar-condicionado p, 
+#cortina-de-ar p, 
+#caixa-ventiladora p, 
+#coifa-de-cozinha p,
+#damper-corta-fogo p,
+#dutos-ar-condicionado p,
+#exaustor p,
+#lavador-de-gases p,
+#ventilador-siroco p {
+    margin-bottom: 20px;
+}
+
+#ar-condicionado input, 
+#cortina-de-ar input, 
+#caixa-ventiladora input,
+#coifa-de-cozinha input,
+#damper-corta-fogo input,
+#dutos-ar-condicionado input,
+#exaustor input,
+#lavador-de-gases input,
+#ventilador-siroco input {
+    padding: 10px 20px;
+    background-color: rgb(166, 166, 166);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#ar-condicionado input:hover, 
+#cortina-de-ar input:hover, 
+#caixa-ventiladora input:hover,
+#coifa-de-cozinha input:hover,
+#damper-corta-fogo input:hover,
+#dutos-ar-condicionado input:hover,
+#exaustor input:hover,
+#lavador-de-gases input:hover,
+#ventilador-siroco input:hover {
+    background-color: #fc7a00;
+}
+
+#ar-condicionado hr, 
+#cortina-de-ar hr, 
+#caixa-ventiladora hr,
+#coifa-de-cozinha hr,
+#damper-corta-fogo hr,
+#dutos-ar-condicionado hr,
+#exaustor hr,
+#lavador-de-gases hr,
+#ventilador-siroco hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/* MARCAS */
+
+#best-brands {
+    background-image: url('../img/bg-recent-works.png');
+    height: 675px;
+    background-color: #000;
+    padding: 50px 0;
+}
+
+#best-brands h1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.container-brands-list {
+    max-width: 1180px;
+    height: 650px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.list-brands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+#brand img{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    max-width: 280px;
+}
+
+/* CONTATO 2 */
+
+#contact2 {
+    background-color: #d6d6d6;
+    height: 175px;
+    padding-left: 360px;
+}
+
+.contact2-container {
+    position: relative;
+    max-width: 1180px;
+}
+
+.contact2-inner h3 {
+    position: absolute;
+    top: 60px;
+    font-size: 17.5px;
+    color: #383838;
+}
+
+.contact2-inner p {
+    position: absolute;
+    top: 90px;
+    font-size: 12px;
+    letter-spacing: .4px;
+    color: #444;
+}
+
+.contact2-inner a {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 11px 19px;
+    border: 3px solid #444;
+    color: #444;
+}
+
+.contact2-inner a:hover {
+    background-color: #444;
+    color: #fff;
+    transition: .2s;
+}
+
+/* CONTACT 3 */
+
+#contact3  {
+    background-color: #232323;
+    height: 380px;
+    padding-left: 360px;
+} 
+
+.contact3-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+}
+
+#contact-description {
+    flex: 2 1 0;
+    height: 350px;
+    margin-right: 120px;
+}
+
+#contact-description h2 {
+    padding: 60px 0 15px 10px;
+    font-size: 17.5px;
+    color: #fff;
+}
+
+.contact-local,
+.contact-email,
+.contact-phonenumber1,
+.contact-phonenumber2, 
+.contact-phonenumber3 {
+    display: flex;
+    margin-left: 22px;
+    margin-bottom: 9px;
+}
+
+.contact-local i,
+.contact-phonenumber1 i,
+.contact-phonenumber2 i,
+.contact-phonenumber3 i {
+    margin-right: 9px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.contact-local p,
+.contact-phonenumber1 p,
+.contact-phonenumber2 p,
+.contact-phonenumber3 p {
+    line-height: 21px;
+    font-size: 12px;
+    color: #6f6f6f;
+    font-weight: lighter;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.contact-email {
+    margin-bottom: 15px;
+}
+
+.contact-email i {
+    margin-right: 5px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.contact-email a {
+    line-height: 21px;
+    font-size: 12px;
+    color: #6f6f6f;
+    font-weight: lighter;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+}
+
+.contact-phonenumber1 p,
+.contact-phonenumber2 p,
+.contact-phonenumber3 p {
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-family: Fjalla One;
+}
+
+.contact-phonenumber1 p:hover,
+.contact-phonenumber2 p:hover,
+.contact-phonenumber3 p:hover,
+.contact-email a:hover {
+    color: #ccc;
+    cursor: pointer;
+    transition: .2s
+}
+
+/* SITE MAP */
+
+#site-map {
+    flex: 3 1 0;
+}
+
+#site-map h2 {
+    padding: 60px 0 15px 10px;
+    font-size: 17.5px;
+    color: #fff;
+}
+
+#site-map ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+#site-map li {
+    min-width: 39%;
+    color: #6f6f6f;
+    padding-top: 5px;
+    padding-right: 40px;
+}
+
+#site-map a {
+    color: #6f6f6f;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+}
+
+#site-map a:hover {
+    color: #cccccc;
+    transition: .2s;
+}
+
+/* SOCIAL MEDIA */
+
+#social-media {
+    flex: 2 1 0;
+    margin-left: 100px;
+}
+
+#social-media h2 {
+    padding: 60px 0 15px 10px;
+    font-size: 17.5px;
+    color: #fff;
+    text-align: center;
+}
+
+#social-media a {
+    display: flex;
+    width: 230px;
+    height: 20px;
+    text-align: center;
+}
+
+.input-insta,
+.input-fb,
+.input-orcamento {
+    padding: 11px 19px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17.5px;
+}
+
+
+.input-insta {
+    background: linear-gradient(45deg, #f6931d, #c23f90, #5a2e90);
+}
+
+.input-fb {
+    background-color: #4f7dd4;
+}
+
+.input-orcamento {
+    background-color: #dc422b;
+}
+
+.input-insta i,
+.input-fb i,
+.input-orcamento i {
+    margin-right: 5px;
+    margin-left: 13px;
+}
+
+.input-insta p,
+.input-fb p,
+.input-orcamento p {
+    text-transform: capitalize;
+}
+
+.input-insta:hover {
+    background: linear-gradient(45deg, #f03d9c, #b45b8f); 
+}
+
+.input-fb:hover {
+    background-color: #6b93dd;
+}
+
+.input-orcamento:hover {
+    background-color: #dd5e4a;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-left: 340px;
+    background-color: #333;
+    padding-right: 340px;
+}
+
+.footer-inner {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    max-width: 1180px;
+}
+
+.footer-inner ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-inner p {
+    color: #666;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#arrow-up {
+    padding: 10px 15px;
+    background-color: #1d1d1d;
+    margin-left: 60px;
+}
+
+#arrow-up:hover {
+    background-color: #2b2b2b;
+}
+
+.fa-html5,
+.fa-css3,
+.fa-mobile,
+.fa-google,
+.fa-instagram,
+.fa-facebook {
+    color: #7a7a7a;
+}
+
+.fa-html5:hover,
+.fa-css3:hover,
+.fa-mobile:hover,
+.fa-google:hover,
+.fa-instagram:hover,
+.fa-facebook:hover {
+    color: #bbbbbb;
+}
